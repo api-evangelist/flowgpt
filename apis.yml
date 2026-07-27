@@ -1,8 +1,28 @@
 aid: flowgpt
 name: FlowGPT
-description: 'FlowGPT is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  FlowGPT is a community platform for discovering, sharing, and chatting with AI
+  prompts, characters, and chatbots. Backed by DCM Ventures, it operates as a
+  ChatGPT prompt and AI-character marketplace where creators publish prompts,
+  roleplay characters, and AI apps across categories such as programming,
+  marketing, business, and entertainment, and users engage them through free
+  chat, leaderboards, bounties, and paid membership tiers. FlowGPT publishes
+  user- and creator-facing product documentation (guide.flowgpt.com) but does
+  not currently expose a public developer REST API, OpenAPI definition, or
+  first-party SDK; programmatic access today is limited to unofficial community
+  wrappers over its internal endpoints.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://flowgpt.com/flowgpt.png
 url: https://raw.githubusercontent.com/api-evangelist/flowgpt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Frontier Tech
+- Artificial Intelligence
+- Generative AI
+- Chatbots
+- Prompt Engineering
+- LLM
+- Community Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://flowgpt.com/
+- type: Documentation
+  url: https://guide.flowgpt.com/
+- type: GitHubOrganization
+  url: https://github.com/flowgpt
+- type: Pricing
+  url: https://flowgpt.com/membership
+- type: TermsOfService
+  url: https://flowgpt.com/terms
+- type: PrivacyPolicy
+  url: https://flowgpt.com/privacy-policy
+- type: Support
+  url: https://discord.gg/tWZGzcpTkf
+- type: DomainSecurity
+  url: security/flowgpt-domain-security.yml
+- type: LLMsTxt
+  url: llms/flowgpt-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
